@@ -1,0 +1,11 @@
+pandas
+numpy
+joblib
+emoji
+Sastrawi
+matplotlib
+seaborn
+scikit-learn
+xgboost
+gspread
+google-auth
