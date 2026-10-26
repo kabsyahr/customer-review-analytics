@@ -1,6 +1,6 @@
 # Customer Review Analytics
 
-Customer review analytics project developed during my **Business Data Analyst internship at Auto2000** to support the monitoring and analysis of Google Maps customer reviews across multiple branches.
+Customer review analytics project developed during my **Business Data Analyst internship at Auto2000 BSD City** to support the monitoring and analysis of Google Maps customer reviews across multiple branches.
 
 The project combines **data collection, text preprocessing, sentiment classification, review categorization, aspect-based analysis, and Power BI visualization** to transform unstructured customer reviews into actionable information.
 
@@ -139,6 +139,6 @@ customer-review-analytics/
 
 ## Notes
 
-This repository is a portfolio documentation of a project completed during my internship at Auto2000.
+This repository is a portfolio documentation of a project completed during my internship at Auto2000 BSD City.
 
 Original customer datasets, credentials, internal spreadsheet connections, proprietary model files, and personally identifiable information are not included in this public repository.
