@@ -106,6 +106,8 @@ Provides detailed monitoring for an individual branch, including:
 - Reviews containing photos
 - Customer review text
 
+![Branch Analysis Dashboard](images/dashboard_branch_analysis.png)
+
 ### Branch Comparison
 
 Supports comparison across 7 branches based on:
@@ -115,6 +117,8 @@ Supports comparison across 7 branches based on:
 - Sentiment distribution
 - Review categories
 - Service aspects
+
+![Branch Comparison Dashboard](images/dashboard_branch_comparison.png)
 
 ## Tools & Technologies
 
