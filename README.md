@@ -1,6 +1,6 @@
 # Customer Review Analytics | Auto2000 BSD City
 
-**Customer experience analytics · Natural Language Processing · Business Intelligence**
+**Customer Analytics · Natural Language Processing · Business Intelligence**
 
 **Stack:** Python, pandas, scikit-learn, TF-IDF, XGBoost, rule-based text classification, Apify, Google Sheets, GitHub Actions, Power BI
 
@@ -194,15 +194,3 @@ customer-review-analytics/
 **Notebook:** [`customer_review_analytics.ipynb`](customer_review_analytics.ipynb) documents the cleaned, portfolio-facing processing and inference workflow. It loads a previously trained TF-IDF vectorizer and XGBoost model; it does **not** reproduce the original model-training experiment or evaluation figures from scratch. Running it requires authorized Google Sheets access and the original `.pkl` artifacts, which are not included in this repository.
 
 **Dependencies:** [`requirements.txt`](requirements.txt) lists the Python package requirements; it should be checked against the notebook imports before publication.
-
-Before publishing, remove API credentials, spreadsheet IDs with restricted access, customer-identifying details, and private business information. If the complete source review data cannot be shared, publish sanitized examples, data definitions, screenshots with identifying details obscured, and clear reproduction instructions instead. Avoid committing trained model files unless redistribution is permitted and the provenance is documented.
-
-## Source and evidence notes
-
-- **2025 internship report:** *Laporan Praktik Kerja Lapangan di Toyota Auto2000 BSD City*, particularly the data tables, sentiment evaluation, classification results, integration workflow, and dashboard sections.
-- **2025 PKL field notes:** Operational observations involving service waiting times, customer communication, and workflow handoffs.
-- **Public project notebook:** [`customer_review_analytics.ipynb`](customer_review_analytics.ipynb), a streamlined portfolio version of the processing/inference code. The internship report separately documents model development and evaluation.
-- **Historical dashboard exports:** `Auto2000_BSD_City_Review_{Negatif,Positif,Netral}_2025.csv`; exported chart data may be aggregated by displayed review text.
-- **Dashboard screenshots:** [`images/dashboard_branch_analysis.png`](images/dashboard_branch_analysis.png) and [`images/dashboard_branch_comparison.png`](images/dashboard_branch_comparison.png).
-
-**Project role and attribution:** Developed as part of the documented internship project with a fellow student and guidance from Auto2000 stakeholders. Any individual GitHub profile should describe the author's own contributions accurately and acknowledge collaboration where relevant.
