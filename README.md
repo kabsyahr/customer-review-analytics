@@ -44,7 +44,7 @@ The original internship workflow used Apify's Google Maps Review Scraper with re
 | BSD City — collected | 1,000 | Raw records |
 | BSD City — retained | 620 | Reported records after preprocessing |
 
-**Source:** 2025 internship report, Tables 4.1–4.2. Review timestamps span historical periods; the collection itself was performed during the internship, not continuously across all review years.
+Review timestamps span historical periods; the collection itself was performed during the internship, not continuously across all review years.
 
 **Data provenance note:** A later working Excel file contains additional BSD City reviews, including records dated after the internship. It is **not** used to represent the original 2025 internship results. The three historical sentiment exports reproduce the dashboard totals of **549 positive, 66 negative, and 5 neutral reviews** (620 in total). The positive CSV contains **531 exported rows** because the Power BI visual groups some identical review texts and aggregates numeric fields; it must not be treated as 531 distinct source reviews. The original per-review data is preferable for a fully reproducible record-level analysis.
 
